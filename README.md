@@ -1,2 +1,4 @@
-# Brain-Tumor-Detection
-This project aims to develop a system that automatically detects brain tumors in MRI images using a deep learning model called U-Net. U-Net is a type of convolutional neural network (CNN) designed for semantic segmentation, which means it can classify each pixel in an image into different categories
+# Brain Tumor Detection Using U-Net for Semantic Segmentation on MRI Images.
+
+In this project, we address the problem of brain tumor detection using semantic segmentation techniques on MRI images. The primary objective is to classify each pixel in the image, identifying regions corresponding to tumor and non-tumor areas. We employ the U-Net architecture, a powerful convolutional neural network designed for image segmentation tasks. The model takes MRI images as input and produces corresponding masks, with each pixel labeled as either tumor (1) or non-tumor (0). The goal is to accurately delineate tumor boundaries in brain scans, aiding in the diagnosis and treatment planning for patients. By training the U-Net model on a dataset of labeled MRI images, we aim to achieve high accuracy in identifying tumor regions, ultimately providing a reliable tool for medical professionals in the detection of brain tumors.
+
